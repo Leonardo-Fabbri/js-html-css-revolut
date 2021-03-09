@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:lightgrey;
+}
+
+header {
+    width: 100%;
+    height: 8vh;
+    background-color:limegreen;
+    padding: 5px;
+}
+#menu-centrato {
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+.menu_sx img {
+    width: 100px;
+    vertical-align: middle;
+}
+
+select {
+    text-decoration: none;
+    border: none;
+}
+.sx {
+    margin-top: 8px;
+    vertical-align: middle;
+    line-height: 20px;
+    float: left;
+}
+.menu_sx li , a {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.dx {
+    
+    float: left;
+    margin-top: 10px;
+    margin-left: 350px;
+
+}
+
+#menu_dx .oggetto-menu {
+    display: inline-block; 
+    text-decoration: none;
+    list-style: none;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+#menu_dx .lista {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+#menu_dx {
+    position: relative;
+}
+#menu_dx , .bottone  {
+    display: inline-block;
+}
+.dropdown-menu {
+    width: 100px;
+    position: absolute;
+    margin-top: 40px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 5px;
+    text-align: center;
+    display: none;
+   
+}
+.dropdown-menu li {
+    text-decoration: none;
+    list-style: none;
+    margin-top: 20px;
+    color: black;
+    
+}
+.visible {
+    display: block;
+}
+.bottone {
+    width: 130px;
+    height: 25px;
+    background-color: rgb(255, 20, 147);
+    color: white;
+    padding: 2.5px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
